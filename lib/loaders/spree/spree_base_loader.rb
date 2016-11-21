@@ -17,8 +17,8 @@ module DataShift
 
   class SpreeBaseLoader < LoaderBase
 
-    include DataShift::CsvLoading
-    include DataShift::ExcelLoading
+    #include DataShift::CsvLoading
+    #include DataShift::ExcelLoading
     include DataShift::ImageLoading
 
     # depending on version get_product_class should return us right class, namespaced or not
